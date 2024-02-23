@@ -9,11 +9,7 @@ import categoryRoutes from "./routes/CategoryRoutes.js";
 import productRoutes from "./routes/productRoute.js";
 import ratingRoutes from "./routes/ratingRoute.js";
 import path from "path";
-<<<<<<< HEAD
 import { fileURLToPath } from "url";
-=======
-import {fileURLToPath} from "url";
->>>>>>> eb6ec2a47baa16fe4ac05254ff578538c97ece4a
 
 // configure env
 dotenv.config();
@@ -22,13 +18,8 @@ dotenv.config();
 connectDB();
 
 //esmodule fix
-<<<<<<< HEAD
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-=======
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
->>>>>>> eb6ec2a47baa16fe4ac05254ff578538c97ece4a
 
 // rest object
 const app = express();
